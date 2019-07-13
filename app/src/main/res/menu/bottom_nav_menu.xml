@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/homeTabFragment"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+
+    <item
+            android:id="@+id/testTabFragment"
+            android:title="Test"
+            android:icon="@drawable/test_icon"/>
+
+    <item
+            android:id="@+id/practiceTabFragment"
+            android:title="Practice"
+            android:icon="@drawable/practice_icon"/>
+
+    <item
+            android:id="@+id/communityTabFragment"
+            android:title="Community"
+            android:icon="@drawable/community_icon"/>
+</menu>

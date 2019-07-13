@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/bottom_navigation_graph"
+            app:startDestination="@id/homeTabFragment">
+
+    <fragment android:id="@+id/homeTabFragment" android:name="com.shubham.navigationjetpackdemo.HomeTabFragment"
+              android:label="Home" tools:layout="@layout/fragment_home_tab"/>
+    <fragment android:id="@+id/testTabFragment" android:name="com.shubham.navigationjetpackdemo.TestTabFragment"
+              android:label="Test" tools:layout="@layout/fragment_test_tab"/>
+    <fragment android:id="@+id/practiceTabFragment" android:name="com.shubham.navigationjetpackdemo.PracticeTabFragment"
+              android:label="Practice" tools:layout="@layout/fragment_practice_tab"/>
+    <fragment android:id="@+id/communityTabFragment"
+              android:name="com.shubham.navigationjetpackdemo.CommunityTabFragment"
+              android:label="Community" tools:layout="@layout/fragment_community_tab"/>
+</navigation>
